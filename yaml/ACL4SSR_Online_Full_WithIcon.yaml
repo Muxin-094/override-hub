@@ -533,7 +533,7 @@ rule-providers:
     type: http
 
 rules:
-  - "IP-CIDR,154.222.16.22,DIRECT"
+  - "IP-CIDR,154.222.0.0/16,DIRECT"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
